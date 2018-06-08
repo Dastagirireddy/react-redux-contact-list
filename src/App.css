@@ -1,0 +1,21 @@
+.navbar-violet {
+  background: blueviolet;
+}
+
+.navbar-violet a.navbar-brand{
+  color: white;
+}
+
+.content {
+  display: flex;
+  height: calc(100vh - 56px);
+  margin: 0;
+}
+  
+.content .col-sm-4, .content .col-sm-8 {
+  padding: 15px;
+}
+
+.content .col-sm-4{
+  border-right: 1px solid #ddd;
+}
